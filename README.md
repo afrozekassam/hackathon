@@ -52,9 +52,8 @@ The app uses Hugging Face's free inference API. You need to set up your API toke
 
 ## Models Used
 
-- **Sentiment Analysis**: `cardiffnlp/twitter-roberta-base-sentiment-latest`
-- **Text Generation**: `microsoft/DialoGPT-small`
-
+SENTIMENT_MODEL = "VinMir/GordonAI-emotion_detection"
+TEXT_GENERATION_MODEL = "facebook/blenderbot-400M-distill"
 ## Fallback System
 
 If the AI services are unavailable or timeout, the app automatically falls back to a high-quality template-based reflection system to ensure you always get a meaningful response.
